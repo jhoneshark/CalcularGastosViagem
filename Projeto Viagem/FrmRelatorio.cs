@@ -111,7 +111,7 @@ namespace Projeto_Viagem
                     }
                     
                     sw.Close();
-                    swDispose();
+                    sw.Dispose();
                     
                 }
                 catch (Exception ex) 
