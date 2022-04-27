@@ -109,6 +109,10 @@ namespace Projeto_Viagem
                         writer.Write(rtRelatorio.Text);
                         writer.Flush();
                     }
+                    
+                    sw.Close();
+                    swDispose();
+                    
                 }
                 catch (Exception ex) 
                 {
