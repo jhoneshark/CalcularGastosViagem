@@ -110,9 +110,6 @@ namespace Projeto_Viagem
                         writer.Flush();
                     }
                     
-                    sw.Close();
-                    sw.Dispose();
-                    
                 }
                 catch (Exception ex) 
                 {
