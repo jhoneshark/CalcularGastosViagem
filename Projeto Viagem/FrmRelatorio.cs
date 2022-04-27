@@ -124,11 +124,8 @@ namespace Projeto_Viagem
 
         private void btFechar_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Dispose();
         }
-
-
-
 
 
     }   
